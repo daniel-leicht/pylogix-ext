@@ -687,7 +687,7 @@ class PLC:
                                AttributeInstanceType,
                                AttributeInstance)
 
-        if not custom_routing_path:
+        if custom_routing_path == None:
             AttributePacket += pack('<4B',
                                     PathRouteSize,
                                     Reserved,
@@ -771,7 +771,7 @@ class PLC:
                                AttributeType,
                                Attribute)
 
-        if not custom_routing_path:
+        if custom_routing_path == None:
             AttributePacket += pack('<4B',
                                     PathRouteSize,
                                     Reserved,
