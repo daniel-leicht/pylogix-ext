@@ -1,4 +1,4 @@
-# pylogix
+# pylogix2
 
 This project will allow you to easily read/write values from tags in Rockwell Automation Logix based PLC's over Ethernet I/P using Python.  PLC models inclued CompactLogix, ControlLogix and Micro8xx.  Python2 and Python3 are both supported.
 
@@ -11,15 +11,15 @@ There are currently no dependencies so you can get going quickly without having 
 You can clone the repo with the following:
 
 ```
-git clone https://github.com/daniel-leicht/pylogix.git
-cd pylogix
+git clone https://github.com/daniel-leicht/pylogix2.git
+cd pylogix2
 python setup.py install --user
 ```
 
 Or you can install with pip:
 
 ```
-pip install pylogix
+pip install pylogix2
 ```
 
 ### Verifying Installation
